@@ -1,0 +1,24 @@
+.main {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(../images/index-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.subscription {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(../images/index-background-2.jpg);    
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 411px;
+}
+
+.main-inner {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(../images/catalog-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
