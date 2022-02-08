@@ -53,9 +53,9 @@ body {
     color: #000000;
 }
 
-.main {
+.welcome {
     color: #000000;
-    background-color: #91afca;
+    background-color: #83B3D3;
     background-image: url(../images/index-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -204,9 +204,9 @@ footer-phone {
     text-transform: uppercase;
 }
 
-.main-inner {
+.container-background {
     color: #000000;
-    background-color: #91afca;
+    background-color: #83B3D3;
     background-image: url(../images/catalog-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
