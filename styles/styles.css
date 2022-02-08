@@ -14,13 +14,24 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     font-family: "PT Sans", sans-serif; 
     font-size: 18px;
     font-style: normal;
     line-height: 21px;
     color: #000000;
     background-color: #ffffff;
+}
+
+.main-container {
+    flex-grow: 1;
 }
 
 .navigation-list {
