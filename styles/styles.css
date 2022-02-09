@@ -34,8 +34,22 @@ body {
     flex-grow: 1;
 }
 
+.navigation {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+}
+
 .navigation-list {
     list-style-type: none;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-user {
+    max-width: 300px;
+    margin-left: auto;
 }
 
 .navigation-item {    
@@ -62,6 +76,29 @@ body {
 .want-button {
     text-decoration: none;
     color: #000000;
+}
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.welcome-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reasons-items {
+    width: 400px;
+}
+
+.info-item {
+    width: 400px;
 }
 
 .welcome {
@@ -167,6 +204,10 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
+
+    display: block;
+    margin: 0 auto;
+    width: 575px;
 }
 
 .subscription {
@@ -176,6 +217,11 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 411px;
+}
+
+.subscription-form {
+    
+    text-align: center;
 }
 
 .subscription-title {
@@ -201,6 +247,13 @@ body {
     background: #83B3D3;
     color: #ffffff;
 
+}
+
+.page-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-social-list {
@@ -236,6 +289,10 @@ footer-phone {
     line-height: 21px;
     color: #FFFFFF;  
     list-style-type: none;  
+}
+
+.catalog-filter {
+    display: flex;
 }
 
 .catalog-filter-title {
@@ -287,6 +344,12 @@ footer-phone {
 
 .hotel-card-list {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel-card-item {
+    width: 340px;
 }
 
 .hotel-card-name {
@@ -347,14 +410,26 @@ footer-phone {
 }
 
 .more-button {
+    display: block;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
+    
     text-align: center;
     text-transform: uppercase;
     
     background: #83B3D3;
     color: #ffffff;
+
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination-item {
+    width: 55px;
 }
 
 .pagination-link {
@@ -414,3 +489,4 @@ footer-phone {
     color: #ffffff;
 
 }
+
