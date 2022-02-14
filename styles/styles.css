@@ -329,10 +329,19 @@ footer-phone {
     line-height: 23px;    
 }
 
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
 .hotel-card-list {
+    
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    
 }
 
 .hotel-card-item {
