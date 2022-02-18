@@ -62,8 +62,8 @@ body {
 }
 
 .navigation-user {
+    
     max-width: 300px;
-    margin-left: auto;
 }
 
 .navigation-item {    
@@ -379,6 +379,14 @@ body {
 
 .hotel-card-item {
     width: 340px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.hotel-type {
+    margin-right: 25px;;
 }
 
 .hotel-card-name {
