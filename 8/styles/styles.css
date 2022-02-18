@@ -62,8 +62,8 @@ body {
 }
 
 .navigation-user {
+    
     max-width: 300px;
-    margin-left: auto;
 }
 
 .navigation-item {    
@@ -106,6 +106,9 @@ body {
 .welcome-img {
     display: block;
     margin: 0 auto;
+    height: 352px;
+    padding-top: 51px;
+    padding-bottom: 82px;
 }
 
 .welcome {
@@ -114,6 +117,7 @@ body {
     background-image: url(../images/index-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    height: 485px;
 }
 
 .reasons-motto {
@@ -237,6 +241,7 @@ body {
     line-height: 36px;   
     text-align: center;
     text-transform: uppercase;
+    padding-top: 94px;
 }
 
 .subscription-description {
@@ -261,6 +266,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    height: 120px;
 }
 
 .footer-social-list {
@@ -269,16 +275,23 @@ body {
     list-style-type: none;
 }
 
-.social-icon:not(:last-child) {
-    padding: 30px;
-}
-
 .footer-phone {
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+    
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
 }
 
 .container-filter {
@@ -381,6 +394,20 @@ body {
     width: 340px;
 }
 
+.card-container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-price {
+    width: 143px;
+}
+
+.hotel-type {
+    margin-right: 25px;;
+}
+
 .hotel-card-name {
     font-weight: 700;
     font-size: 24px;
@@ -400,7 +427,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #756257;
     color: #ffffff;
 }
@@ -411,7 +438,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #83B3D3;
     color: #ffffff;
 }
@@ -422,7 +449,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #7DB54F;
     color: #ffffff;    
 }
@@ -433,7 +460,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #F2F2F2;
     color: #333333;    
 }
@@ -461,6 +488,7 @@ body {
 .pagination-item {
     width: 55px;
     margin: 20px 8px;
+   
 }
 
 .pagination-link {
@@ -470,6 +498,7 @@ body {
     box-sizing: border-box;
     width: 55px;
     height: 55px;
+    line-height: 55px;
     background: #83B3D3;
     color: #ffffff;
     
