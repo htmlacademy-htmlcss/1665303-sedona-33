@@ -106,6 +106,9 @@ body {
 .welcome-img {
     display: block;
     margin: 0 auto;
+    height: 352px;
+    padding-top: 51px;
+    padding-bottom: 82px;
 }
 
 .welcome {
@@ -114,6 +117,7 @@ body {
     background-image: url(../images/index-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    height: 485px;
 }
 
 .reasons-motto {
@@ -475,6 +479,7 @@ body {
 .pagination-item {
     width: 55px;
     margin: 20px 8px;
+   
 }
 
 .pagination-link {
@@ -484,6 +489,7 @@ body {
     box-sizing: border-box;
     width: 55px;
     height: 55px;
+    line-height: 55px;
     background: #83B3D3;
     color: #ffffff;
     
