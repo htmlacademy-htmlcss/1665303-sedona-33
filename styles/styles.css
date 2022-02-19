@@ -14,6 +14,17 @@
     font-display: swap;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 html {
     height: 100%;
 }
@@ -41,21 +52,29 @@ body {
 }
 
 .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     width: 450px;
     margin: 0;
     padding: 0;
+    padding-left: 17px;
 }
 
 .navigation-user {
+    
     max-width: 300px;
-    margin-left: auto;
 }
 
 .navigation-item {    
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
+
+    padding-top: 20px;
+    padding-right: 34px;
+    padding-bottom: 20px;
+    
 }
 
 .navigation-link {
@@ -74,6 +93,7 @@ body {
 }
 
 .want-button {
+    margin-left: 20px;
     text-decoration: none;
     color: #000000;
 }
@@ -86,6 +106,9 @@ body {
 .welcome-img {
     display: block;
     margin: 0 auto;
+    height: 352px;
+    padding-top: 51px;
+    padding-bottom: 82px;
 }
 
 .welcome {
@@ -94,6 +117,7 @@ body {
     background-image: url(../images/index-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    height: 485px;
 }
 
 .reasons-motto {
@@ -217,6 +241,7 @@ body {
     line-height: 36px;   
     text-align: center;
     text-transform: uppercase;
+    padding-top: 94px;
 }
 
 .subscription-description {
@@ -241,18 +266,32 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    height: 120px;
 }
 
 .footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
 }
 
-footer-phone {
+.footer-phone {
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+    
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
 }
 
 .container-filter {
@@ -297,6 +336,12 @@ footer-phone {
     color: #FFFFFF;    
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .apply-button {
     font-weight: 700;
     font-size: 16px;
@@ -309,6 +354,7 @@ footer-phone {
 }
 
 .reset-button {
+    margin-top: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
@@ -348,6 +394,20 @@ footer-phone {
     width: 340px;
 }
 
+.card-container {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-price {
+    width: 143px;
+}
+
+.hotel-type {
+    margin-right: 25px;;
+}
+
 .hotel-card-name {
     font-weight: 700;
     font-size: 24px;
@@ -367,7 +427,7 @@ footer-phone {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #756257;
     color: #ffffff;
 }
@@ -378,7 +438,7 @@ footer-phone {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #83B3D3;
     color: #ffffff;
 }
@@ -389,7 +449,7 @@ footer-phone {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #7DB54F;
     color: #ffffff;    
 }
@@ -400,7 +460,7 @@ footer-phone {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    padding: 10px;
     background: #F2F2F2;
     color: #333333;    
 }
@@ -422,14 +482,27 @@ footer-phone {
 
 .pagination {
     display: flex;
+    list-style-type: none;
 }
 
 .pagination-item {
     width: 55px;
+    margin: 20px 8px;
+   
 }
 
 .pagination-link {
     text-decoration: none;
+    
+    display: block;
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    background: #83B3D3;
+    color: #ffffff;
+    
+    
 }
 
 .pagination-current {
@@ -442,9 +515,7 @@ footer-phone {
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    text-transform: uppercase;
-    background: #83B3D3;
-    color: #ffffff;
+    text-transform: uppercase;  
 }
 
 .pages-select {
@@ -461,12 +532,18 @@ footer-phone {
     color: #333333;    
 }
 
+.subscription-inner {
+    height: 411px;
+}
+
+
 .subscription-inner-title {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;   
     text-align: center;
     text-transform: uppercase;
+    padding-top: 94px;
 }
 
 .subscription-inner-description {
@@ -475,6 +552,11 @@ footer-phone {
     line-height: 26px;
     text-align: center;
 }
+
+.subscription-inner-form {
+    text-align: center;
+}
+
 .subscribe-button {
     font-weight: 700;
     font-size: 20px;
