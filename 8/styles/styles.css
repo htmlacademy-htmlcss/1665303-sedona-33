@@ -532,12 +532,18 @@ body {
     color: #333333;    
 }
 
+.subscription-inner {
+    height: 411px;
+}
+
+
 .subscription-inner-title {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;   
     text-align: center;
     text-transform: uppercase;
+    padding-top: 94px;
 }
 
 .subscription-inner-description {
@@ -546,6 +552,11 @@ body {
     line-height: 26px;
     text-align: center;
 }
+
+.subscription-inner-form {
+    text-align: center;
+}
+
 .subscribe-button {
     font-weight: 700;
     font-size: 20px;
