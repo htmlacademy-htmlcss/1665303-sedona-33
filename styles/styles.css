@@ -137,6 +137,7 @@ body {
 
 .reasons-list {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .reasons-title {
@@ -177,13 +178,24 @@ body {
     text-align: center;
 }
 
-.first, .second {
+.first-item, .second {
     background: #83B3D3;
     color: #ffffff;
+    height: 384px;
 }
 
 .place-to-live, .souvenirs, .third, .fifth {
     background: rgba(131, 179, 211, 0.12);
+}
+
+.food {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.place-to-live, .souvenirs, .food {
+    height: 384px;
+    
 }
 
 .fourth {
@@ -568,3 +580,58 @@ body {
 
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.first {
+    grid-column: 1 / -1;
+}
+
+.second {
+    grid-column: 1 / -1;
+}
+
+.reasons-img-first {
+    grid-column: 2 / 4;
+}
+
+.reasons-img-second {
+    grid-column: 1 / 3;
+}
+
+.info-list {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    height: 384px;
+    align-items: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.third, .fourth, .fifth {
+    height: 384px;
+}
+
+.reasons-title {
+    padding-top: 98px;
+}
+
+.info-title {
+    padding-top: 184px;
+}
+
+.reasons-description {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.wider {
+    width: 250px;
+}
+
+.info-description {
+    width: 250px;
+    margin: 0 auto;
+}
