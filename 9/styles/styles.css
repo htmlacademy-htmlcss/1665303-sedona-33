@@ -614,3 +614,24 @@ body {
     height: 384px;
 }
 
+.reasons-title {
+    padding-top: 98px;
+}
+
+.info-title {
+    padding-top: 184px;
+}
+
+.reasons-description {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.wider {
+    width: 250px;
+}
+
+.info-description {
+    width: 250px;
+    margin: 0 auto;
+}
