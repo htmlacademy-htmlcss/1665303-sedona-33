@@ -63,7 +63,7 @@ body {
 
 .navigation-user {
     
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .navigation-item {    
@@ -126,6 +126,8 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 63px;
+    margin-bottom: 31px;
 }
 
 .reasons-cooler {
@@ -133,6 +135,7 @@ body {
     font-size: 22px;
     line-height: 36px;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .reasons-list {
@@ -208,6 +211,7 @@ body {
     line-height: 36px;
     text-align: center; 
     text-transform: uppercase;
+    margin-top: 91px;
 }
 
 .hotel-search-description {
@@ -216,6 +220,10 @@ body {
     line-height: 26px;
     text-align: center;
     color: #333333;
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 56px;
+    width: 720px;
 }
 
 .search-button {
@@ -231,6 +239,7 @@ body {
     display: block;
     margin: 0 auto;
     width: 575px;
+    margin-bottom: 93px;
 }
 
 .subscription {
@@ -293,6 +302,7 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 40px;
     
 }
 
@@ -304,6 +314,11 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
+    
+}
+
+.htmlacademy-link {
+    margin-top: 42px;
 }
 
 .container-filter {
@@ -634,4 +649,18 @@ body {
 .info-description {
     width: 250px;
     margin: 0 auto;
+}
+
+.social-twitter {
+    background-image: url(../images/social-twitter.svg);
+    width: 18px;
+    height: 15px;
+}
+
+.social-facebook {
+    background-image: url(../images/social-facebook.svg);
+}
+
+.social-youtube {
+    background-image: url(../images/social-youtube.svg);
 }
