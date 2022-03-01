@@ -683,3 +683,12 @@ body {
     margin: 0 auto;
     padding-top: 90px;
 }
+
+.welcome {
+    position: relative;
+}
+
+.welcome::after {
+    background-image: url(../images/Vector.svg);
+    position: absolute;
+}
