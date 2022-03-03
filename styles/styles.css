@@ -719,6 +719,11 @@ body {
     outline: 3px solid #83B3D3;
 }
 
+.want-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
 .social-icon:focus {
     outline: 2px solid #68A2CA;
 }
@@ -727,8 +732,27 @@ body {
     background:#615048;
 }
 
+.search-button:focus {
+    background:#615048;
+    outline: 3px solid #83B3D3;
+}
+
+.search-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
 .subscribe-button:hover {
     background: #68A2CA;
+}
+
+.subscribe-button:focus {
+    outline: 3px solid #756257;
+}
+
+.subscribe-button:active {
+    color: #ffffff;
+    opacity: 0.3;
 }
 
 .social-youtube-path:hover {
