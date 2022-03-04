@@ -107,6 +107,7 @@ body {
     color: #ffffff;
     background-color: #756257;
     padding: 9px 15px;
+    border-radius: 4px;
 }
 
 .page-container {
@@ -251,6 +252,8 @@ body {
     margin: 0 auto;
     width: 575px;
     margin-bottom: 93px;
+
+    border-radius: 10px;
 }
 
 .subscription {
@@ -314,7 +317,6 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 40px;
     
 }
 
@@ -327,10 +329,6 @@ body {
     text-decoration: none;
     color: #000000;
     
-}
-
-.htmlacademy-link {
-    margin-top: 42px;
 }
 
 .container-filter {
