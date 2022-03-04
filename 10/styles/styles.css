@@ -696,24 +696,63 @@ body {
     fill: #756257;
 }
 
+.search-svg:active {
+    fill: #756257;
+    fill-opacity: 30%;
+}
+
 .like-svg:hover {
     fill: #756257;
 }
+
+.like-svg:active {
+    fill: #756257;
+    fill-opacity: 30%;
+}
+
 
 .want-button:hover {
     background-color: #615048;
 }
 
 .want-button:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
+}
+
+.want-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.social-icon:focus {
+    outline: 2px solid #68A2CA;
 }
 
 .search-button:hover {
     background:#615048;
 }
 
+.search-button:focus {
+    background:#615048;
+    outline: 3px solid #83B3D3;
+}
+
+.search-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
 .subscribe-button:hover {
     background: #68A2CA;
+}
+
+.subscribe-button:focus {
+    outline: 3px solid #756257;
+}
+
+.subscribe-button:active {
+    color: #ffffff;
+    opacity: 0.3;
 }
 
 .social-youtube-path:hover {
@@ -726,4 +765,24 @@ body {
 
 .social-twitter-path:hover {
     fill: #68A2CA;
+}
+
+.phone:hover {
+    color: #756257;
+}
+
+.phone:focus {
+    outline: 2px solid #68A2CA;
+}
+
+.phone:active {
+    color: #756257;
+}
+
+.logo-html-svg:hover {
+    fill: #756257;
+}
+
+.footer-htmlacademy-logo:focus {
+    outline: 2px solid #68A2CA;
 }
