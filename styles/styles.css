@@ -65,7 +65,7 @@ body {
     /* width: 525px; */
     margin: 0;
     padding: 0;
-    padding-left: 17px;
+    padding-left: 47px;
     flex-grow: 1;
 }
 
@@ -692,8 +692,7 @@ body {
 }
 
 .navigation-link:hover {
-    color: #756257;
-    border-bottom: 2px solid #756257;
+    color: #756257;  
 }
 
 .navigation-link:active {
@@ -794,4 +793,8 @@ body {
 
 .footer-htmlacademy-logo:focus {
     outline: 2px solid #68A2CA;
+}
+
+.current-page {
+    border-bottom: 2px solid #756257;
 }
