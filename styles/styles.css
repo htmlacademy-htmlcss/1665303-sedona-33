@@ -43,6 +43,13 @@ body {
 
 .main-container {
     flex-grow: 1;
+    margin-top: -6px;
+    z-index: 0;
+}
+
+.page-header {
+    margin-bottom: -10px;
+    z-index: 10;
 }
 
 .navigation {
@@ -55,15 +62,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    width: 450px;
+    /* width: 525px; */
     margin: 0;
     padding: 0;
     padding-left: 17px;
+    flex-grow: 1;
 }
 
 .navigation-user {
-    
-    max-width: 300px;
+    /* max-width: 327px; */
+    flex-grow: 0;
+}
+.navigation-link {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 0 10px 0;
+    display: inline-block;
 }
 
 .navigation-item {    
@@ -75,11 +89,6 @@ body {
     padding-right: 34px;
     padding-bottom: 20px;
     
-}
-
-.navigation-link {
-    text-decoration: none;
-    color: #000000;
 }
 
 .search-icon {
@@ -95,7 +104,10 @@ body {
 .want-button {
     margin-left: 20px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+    background-color: #756257;
+    padding: 9px 15px;
+    border-radius: 4px;
 }
 
 .page-container {
@@ -126,6 +138,8 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 63px;
+    margin-bottom: 31px;
 }
 
 .reasons-cooler {
@@ -133,6 +147,7 @@ body {
     font-size: 22px;
     line-height: 36px;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .reasons-list {
@@ -208,6 +223,7 @@ body {
     line-height: 36px;
     text-align: center; 
     text-transform: uppercase;
+    margin-top: 91px;
 }
 
 .hotel-search-description {
@@ -216,6 +232,10 @@ body {
     line-height: 26px;
     text-align: center;
     color: #333333;
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 56px;
+    width: 720px;
 }
 
 .search-button {
@@ -231,6 +251,9 @@ body {
     display: block;
     margin: 0 auto;
     width: 575px;
+    margin-bottom: 93px;
+
+    border-radius: 10px;
 }
 
 .subscription {
@@ -279,6 +302,7 @@ body {
     display: flex;
     justify-content: space-around;
     height: 120px;
+    align-items: center;
 }
 
 .footer-social-list {
@@ -304,6 +328,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
+    
 }
 
 .container-filter {
@@ -618,9 +643,7 @@ body {
     padding-top: 98px;
 }
 
-.info-title {
-    padding-top: 184px;
-}
+
 
 .reasons-description {
     width: 220px;
@@ -634,4 +657,141 @@ body {
 .info-description {
     width: 250px;
     margin: 0 auto;
+}
+
+.social-twitter {
+    margin-right: 30px;
+}
+
+.social-facebook {    
+    margin-right: 30px;
+}
+
+.social-icon {
+    margin-top: 40px;
+}
+
+.info-img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.welcome {
+    position: relative;
+}
+
+.welcome::after {
+    background-image: url(../images/Vector.svg);
+    position: absolute;
+    content: " ";
+    display: inline-block;
+    width: 1200px;
+    height: 57px;
+    bottom: 0px;    
+}
+
+.navigation-link:hover {
+    color: #756257;
+    border-bottom: 2px solid #756257;
+}
+
+.navigation-link:active {
+    color: #756257;
+    opacity: 0.3;
+}
+
+.search-svg:hover {
+    fill: #756257;
+}
+
+.search-svg:active {
+    fill: #756257;
+    fill-opacity: 30%;
+}
+
+.like-svg:hover {
+    fill: #756257;
+}
+
+.like-svg:active {
+    fill: #756257;
+    fill-opacity: 30%;
+}
+
+
+.want-button:hover {
+    background-color: #615048;
+}
+
+.want-button:focus {
+    outline: 3px solid #83B3D3;
+}
+
+.want-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.social-icon:focus {
+    outline: 2px solid #68A2CA;
+}
+
+.search-button:hover {
+    background:#615048;
+}
+
+.search-button:focus {
+    background:#615048;
+    outline: 3px solid #83B3D3;
+}
+
+.search-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.subscribe-button:hover {
+    background: #68A2CA;
+}
+
+.subscribe-button:focus {
+    outline: 3px solid #756257;
+}
+
+.subscribe-button:active {
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.social-youtube-path:hover {
+    fill: #68A2CA;
+}
+
+.social-facebook-path:hover {
+    fill: #68A2CA;
+}
+
+.social-twitter-path:hover {
+    fill: #68A2CA;
+}
+
+.phone:hover {
+    color: #756257;
+}
+
+.phone:focus {
+    outline: 2px solid #68A2CA;
+}
+
+.phone:active {
+    color: #756257;
+}
+
+.logo-html-svg:hover {
+    fill: #756257;
+}
+
+.footer-htmlacademy-logo:focus {
+    outline: 2px solid #68A2CA;
 }
