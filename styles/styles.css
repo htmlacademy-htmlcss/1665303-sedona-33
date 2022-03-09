@@ -423,7 +423,8 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 39px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    padding-top: 50px;    
 }
 
 .select-control {
@@ -825,4 +826,22 @@ body {
 
 .hotel-cards {
     padding-top: 56px;
+}
+
+.catalog-sorting {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-view {
+    padding-top: 50px;
+}
+
+.view-button {
+    padding: 17px;
+    border: 2px solid #E6E6E6;
+}
+
+.view-button-selected {
+    border: 2px solid #000000;
 }
