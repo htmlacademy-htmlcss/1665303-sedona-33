@@ -5,7 +5,7 @@
     src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
-  
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
@@ -33,7 +33,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: "PT Sans", sans-serif; 
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     line-height: 21px;
@@ -80,7 +80,7 @@ body {
     display: inline-block;
 }
 
-.navigation-item {    
+.navigation-item {
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -88,7 +88,7 @@ body {
     padding-top: 20px;
     padding-right: 34px;
     padding-bottom: 10px;
-    
+
 }
 
 .search-icon {
@@ -182,14 +182,14 @@ body {
 .reasons-description {
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;    
+    line-height: 21px;
     text-align: center;
 }
 
 .info-description {
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;    
+    line-height: 21px;
     text-align: center;
 }
 
@@ -210,7 +210,7 @@ body {
 
 .place-to-live, .souvenirs, .food {
     height: 384px;
-    
+
 }
 
 .fourth {
@@ -221,7 +221,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    text-align: center; 
+    text-align: center;
     text-transform: uppercase;
     margin-top: 91px;
 }
@@ -259,21 +259,21 @@ body {
 .subscription {
     color: #ffffff;
     background-color: #536f88;
-    background-image: url(../images/index-background-2.jpg);    
+    background-image: url(../images/index-background-2.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 411px;
 }
 
 .subscription-form {
-    
+
     text-align: center;
 }
 
 .subscription-title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 36px;   
+    line-height: 36px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 94px;
@@ -317,7 +317,7 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 .phone {
@@ -328,7 +328,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
-    
+
 }
 
 .container-filter {
@@ -344,17 +344,17 @@ body {
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
-    color: #FFFFFF; 
-    margin: 0;   
+    color: #FFFFFF;
+    margin: 0;
 }
 
 .breadcrums {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF;  
-    list-style-type: none; 
-    display: flex; 
+    color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
     position: relative;
 }
 
@@ -389,7 +389,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
 
 .buttons {
@@ -401,10 +401,10 @@ body {
 .apply-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;  
+    line-height: 21px;
     text-align: center;
-    text-transform: uppercase; 
-    
+    text-transform: uppercase;
+
     background: #83B3D3;
     color:#ffffff;
 }
@@ -424,13 +424,13 @@ body {
     font-size: 30px;
     line-height: 39px;
     text-transform: uppercase;
-        
+    min-width: 531px;
 }
 
 .select-control {
     font-weight: 400;
     font-size: 18px;
-    line-height: 23px;    
+    line-height: 23px;
 }
 
 .wrapper {
@@ -439,13 +439,13 @@ body {
 }
 
 .hotel-card-list {
-    
+
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
-    
+
 }
 
 .hotel-card-item {
@@ -469,7 +469,7 @@ body {
 .hotel-card-name {
     font-weight: 700;
     font-size: 24px;
-    line-height: 31px;    
+    line-height: 31px;
 }
 
 .hotel-type, .hotel-price {
@@ -509,7 +509,7 @@ body {
     text-transform: uppercase;
     padding: 10px;
     background: #7DB54F;
-    color: #ffffff;    
+    color: #ffffff;
 }
 
 .hotel-rating {
@@ -520,7 +520,7 @@ body {
     text-transform: uppercase;
     padding: 10px;
     background: #F2F2F2;
-    color: #333333;    
+    color: #333333;
 }
 
 .more-button {
@@ -529,10 +529,10 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    
+
     text-align: center;
     text-transform: uppercase;
-    
+
     background: #83B3D3;
     color: #ffffff;
 
@@ -546,12 +546,12 @@ body {
 .pagination-item {
     width: 55px;
     margin: 20px 8px;
-   
+
 }
 
 .pagination-link {
     text-decoration: none;
-    
+
     display: block;
     box-sizing: border-box;
     width: 55px;
@@ -559,8 +559,8 @@ body {
     line-height: 55px;
     background: #83B3D3;
     color: #ffffff;
-    
-    
+
+
 }
 
 .pagination-current {
@@ -573,21 +573,21 @@ body {
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
 .pages-select {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #333333;    
+    color: #333333;
 }
 
 .hotels-on-page-option {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #333333;    
+    color: #333333;
 }
 
 .subscription-inner {
@@ -598,7 +598,7 @@ body {
 .subscription-inner-title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 36px;   
+    line-height: 36px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 94px;
@@ -684,7 +684,7 @@ body {
     margin-right: 30px;
 }
 
-.social-facebook {    
+.social-facebook {
     margin-right: 30px;
 }
 
@@ -709,11 +709,11 @@ body {
     display: inline-block;
     width: 1200px;
     height: 57px;
-    bottom: 0px;    
+    bottom: 0px;
 }
 
 .navigation-link:hover {
-    color: #756257;  
+    color: #756257;
 }
 
 .navigation-link:active {
@@ -820,28 +820,33 @@ body {
     border-bottom: 2px solid #756257;
 }
 
-.select-control{
-    margin: 50px;
-}
+/*.select-control{*/
+/*    margin: 50px;*/
+/*}*/
 
 .hotel-cards {
-    
+
 }
 
 .catalog-sorting {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    width: 1059px;
+    margin: 0 auto;
+    height: 138px;
 }
 
 .cards-view {
-    
+ text-align: right;
+  flex-grow: 1;
 }
 
 .view-button {
     padding: 11px 13px;
-    margin-left: 4px; 
+    margin-left: 4px;
     border: 2px solid #E6E6E6;
+    display: inline-block;
 }
 
 .view-button-selected {
@@ -853,4 +858,5 @@ body {
     width: 284px;
     border: 2px solid #E6E6E6;
     border-radius: 4px;
+    flex-basis: min-content;
 }
