@@ -830,7 +830,7 @@ body {
 
 .catalog-sorting {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -849,7 +849,8 @@ body {
 }
 
 .select-control {
-    padding: 12px 127px 13px 19px;
+    padding: 12px 19px 13px 19px;
+    width: 284px;
     border: 2px solid #E6E6E6;
     border-radius: 4px;
 }
