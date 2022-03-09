@@ -76,7 +76,7 @@ body {
 .navigation-link {
     text-decoration: none;
     color: #000000;
-    padding: 0 0 10px 0;
+    padding: 0 0 20px 0;
     display: inline-block;
 }
 
@@ -87,7 +87,7 @@ body {
 
     padding-top: 20px;
     padding-right: 34px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     
 }
 
