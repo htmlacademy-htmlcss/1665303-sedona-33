@@ -424,7 +424,7 @@ body {
     font-size: 30px;
     line-height: 39px;
     text-transform: uppercase;
-    padding-top: 50px;    
+        
 }
 
 .select-control {
@@ -821,27 +821,35 @@ body {
 }
 
 .select-control{
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .hotel-cards {
-    padding-top: 56px;
+    
 }
 
 .catalog-sorting {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .cards-view {
-    padding-top: 50px;
+    
 }
 
 .view-button {
-    padding: 17px;
+    padding: 11px 13px;
+    margin-left: 4px; 
     border: 2px solid #E6E6E6;
 }
 
 .view-button-selected {
     border: 2px solid #000000;
+}
+
+.select-control {
+    padding: 12px 127px 13px 19px;
+    border: 2px solid #E6E6E6;
+    border-radius: 4px;
 }
