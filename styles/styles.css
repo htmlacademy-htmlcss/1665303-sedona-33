@@ -442,7 +442,9 @@ body {
     list-style-type: none;
     display: grid;
     grid-template-columns: 340px 340px 340px;
-    margin: 0 72px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1020px;
     column-gap: 18px;
 }
 
@@ -493,6 +495,8 @@ body {
     padding: 10px;
     background: #756257;
     color: #ffffff;
+    width: 133px;
+    text-decoration: none;
 }
 
 .hotel-card-like-button {
@@ -504,6 +508,7 @@ body {
     padding: 10px;
     background: #83B3D3;
     color: #ffffff;
+    width: 140px;
 }
 
 .hotel-card-like-button-liked {
@@ -540,6 +545,8 @@ body {
 
     background: #83B3D3;
     color: #ffffff;
+    padding: 17px ;
+    width: 620px;
 
 }
 
@@ -860,13 +867,30 @@ body {
 
 .select-control {
     padding: 12px 19px 13px 19px;
-    width: 284px;
+    width: 287px;
     border: 2px solid #E6E6E6;
     border-radius: 4px;
-    flex-basis: min-content;
 }
 
 .hotel-card-image {
     width: 300px;
     height: 206px;
+}
+
+.button {
+    border: none;
+}
+
+.divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0.5px solid #E6E6E6;
+    width: 1055px;
+}
+
+.pagination-container {
+    width: 1055px;
+    margin: 0 auto;
+    display: flex;
+
 }
