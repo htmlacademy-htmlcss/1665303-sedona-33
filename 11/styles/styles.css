@@ -442,8 +442,11 @@ body {
     list-style-type: none;
     display: grid;
     grid-template-columns: 340px 340px 340px;
-    margin: 0 72px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1020px;
     column-gap: 18px;
+    
 }
 
 
@@ -493,6 +496,8 @@ body {
     padding: 10px;
     background: #756257;
     color: #ffffff;
+    width: 133px;
+    text-decoration: none;
 }
 
 .hotel-card-like-button {
@@ -504,6 +509,7 @@ body {
     padding: 10px;
     background: #83B3D3;
     color: #ffffff;
+    width: 140px;
 }
 
 .hotel-card-like-button-liked {
@@ -540,17 +546,20 @@ body {
 
     background: #83B3D3;
     color: #ffffff;
+    padding: 17px ;
+    width: 620px;
 
 }
 
 .pagination {
     display: flex;
     list-style-type: none;
+    margin: 0;
 }
 
 .pagination-item {
     width: 55px;
-    margin: 20px 8px;
+    margin: 0 8px;
 
 }
 
@@ -606,7 +615,7 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 94px;
+    margin: 73px;
 }
 
 .subscription-inner-description {
@@ -860,13 +869,75 @@ body {
 
 .select-control {
     padding: 12px 19px 13px 19px;
-    width: 284px;
+    width: 287px;
     border: 2px solid #E6E6E6;
     border-radius: 4px;
-    flex-basis: min-content;
 }
 
 .hotel-card-image {
     width: 300px;
     height: 206px;
+}
+
+.button {
+    border: none;
+}
+
+.divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1055px;
+
+    border: none;
+    height: 1px;
+    background: #E6E6E6;
+}
+
+.pagination-container {
+    width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.hotels-on-page {
+    padding: 13px 17px;
+}
+
+.range-scale {
+    position: relative;
+    height: 4px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    opacity: 0.3;
+}
+
+.range-bar {
+    position: absolute;
+    height: 4px;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.range-toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.toggle-min {
+    top:-8px;
+    left: -10px;
+}
+
+.toggle-max {
+    top:-8px;
+    right: -10px;
 }
