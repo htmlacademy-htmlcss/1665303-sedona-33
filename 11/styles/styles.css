@@ -346,6 +346,10 @@ body {
     line-height: 78px;
     color: #FFFFFF;
     margin: 0;
+    
+    padding-left: 71px;
+    padding-top: 35px;
+
 }
 
 .breadcrums {
@@ -356,6 +360,8 @@ body {
     list-style-type: none;
     display: flex;
     position: relative;
+    padding-left: 71px;
+
 }
 
 .breadcrums-item:first-of-type::after {
@@ -366,7 +372,7 @@ body {
     background-image: url(../images/arrow.svg);
     position: absolute;
     top: 7px;
-    left: 64px;
+    left: 95px;
 }
 
 .breadcrums-item {
@@ -375,6 +381,7 @@ body {
 
 .catalog-filter {
     display: flex;
+    justify-content: space-around;
 }
 
 .catalog-filter-title {
@@ -390,6 +397,7 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
+    padding: 0;
 }
 
 .buttons {
@@ -404,7 +412,8 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-
+    width: 160px;
+    height: 48px;
     background: #83B3D3;
     color:#ffffff;
 }
@@ -910,18 +919,17 @@ body {
 .range-scale {
     position: relative;
     height: 4px;
+    width: 287px;
     margin-bottom: 16px;
     margin-top: 16px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 2px;
-    opacity: 0.3;
 }
 
 .range-bar {
     position: absolute;
     height: 4px;
     background-color: #ffffff;
-    opacity: 1;
 }
 
 .range-toggle {
@@ -940,4 +948,72 @@ body {
 .toggle-max {
     top:-8px;
     right: -10px;
+}
+
+.range-input::-webkit-outer-spin-button, .range-input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+.range-input {
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 48px;
+}
+
+.range-wrapper-inputs {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 287px;
+    display: flex;
+}
+
+.range-wrapper-inputs::after {
+    content: "";
+    position: absolute;
+
+
+    width: 2px;
+    height: 48px;
+
+    background: #ffffff;
+}
+
+.catalog-filter-group {
+    border: none;
+}
+
+.control {
+    position:relative;
+    display: block;
+    padding-left: 36px;
+}
+
+.control-mark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ffffff;
+}
+
+.control-mark-round {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/mark.svg);
 }
