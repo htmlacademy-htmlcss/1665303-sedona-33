@@ -400,6 +400,10 @@ body {
     padding: 0;
 }
 
+.catalog-filter-label {
+    color: rgba(255, 255, 255, 0.3)
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
@@ -416,6 +420,7 @@ body {
     height: 48px;
     background: #83B3D3;
     color:#ffffff;
+    border-radius: 4px;
 }
 
 .reset-button {
@@ -507,6 +512,7 @@ body {
     color: #ffffff;
     width: 133px;
     text-decoration: none;
+    border-radius: 4px;
 }
 
 .hotel-card-like-button {
@@ -519,6 +525,7 @@ body {
     background: #83B3D3;
     color: #ffffff;
     width: 140px;
+    border-radius: 4px;
 }
 
 .hotel-card-like-button-liked {
@@ -530,6 +537,7 @@ body {
     padding: 10px;
     background: #7DB54F;
     color: #ffffff;
+    border-radius: 4px;
 }
 
 .hotel-rating {
@@ -541,6 +549,7 @@ body {
     padding: 10px;
     background: #F2F2F2;
     color: #333333;
+    border-radius: 4px;
 }
 
 .more-button {
@@ -958,8 +967,14 @@ body {
 .range-input {
     background-color: transparent;
     border: none;
-    width: 100px;
+    width: 95px;
     height: 48px;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.range {
+    position: relative;
 }
 
 .range-wrapper-inputs {
@@ -974,11 +989,9 @@ body {
 .range-wrapper-inputs::after {
     content: "";
     position: absolute;
-
-
+    left: 50%;
     width: 2px;
     height: 48px;
-
     background: #ffffff;
 }
 
@@ -1000,6 +1013,7 @@ body {
     height: 16px;
     border: 2px solid #ffffff;
     background: #ffffff;
+    border-radius: 4px;
 }
 
 .control-mark-round {
