@@ -1128,7 +1128,7 @@ body {
 }
 
 .adults {
-    padding-right: 80px;
+    /* padding-right: 80px; */
     padding-top: 15px;
     font-weight: 700;
 }
@@ -1138,12 +1138,8 @@ body {
 }
 
 .kids {
-    margin-left: 36px;
+    margin-left: 56px;
     font-weight: 700;
-}
-
-.kids-minus {
-    margin-left: 35px;
 }
 
 .input-number-of-adults, .input-number-of-kids {
@@ -1208,7 +1204,7 @@ body {
 
 .searching-form {
     display: grid;
-    grid-template-columns: 155px 133px auto 133px;
+    grid-template-columns: 155px 133px auto 200px;
 }
 
 .date-input {
@@ -1230,22 +1226,11 @@ body {
     grid-column: 1/2;
 }
 
-/* .adults {
-    grid-column: 1/2;
-}
-
-.number-button-adults {
-    grid-column: 2/3;
-}
-
-.kids {
-    grid-column: 3/4;
-}
-
-.number-button-kids {
-    grid-column: 4/-1;
-} */
-
 .modal-search-button {
     grid-column: 1/-1;
+}
+
+.number-of-people {
+    display: grid;
+    grid-template-columns: 155px 133px 110px 45px 133px;
 }
