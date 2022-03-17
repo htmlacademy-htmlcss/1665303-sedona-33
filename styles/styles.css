@@ -1111,6 +1111,7 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
+    margin-top: 62px;
 }
 
 .date-input {
@@ -1200,6 +1201,7 @@ body {
     font-size: 20px;
     line-height: 40px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .searching-form {
@@ -1233,4 +1235,18 @@ body {
 .number-of-people {
     display: grid;
     grid-template-columns: 155px 133px 110px 45px 133px;
+}
+
+.modal-close-button {
+    width: 53px;
+    height: 53px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    background-image: url(../images/cross.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    position: absolute;
+    left: 83%;
+    top: 10%;
 }
