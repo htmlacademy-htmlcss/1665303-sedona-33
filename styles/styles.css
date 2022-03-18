@@ -1119,7 +1119,7 @@ body {
 }
 
 .date-input {
-    width: 420px;
+    width: 401px;
     height: 50px;
     
     background-color: #F2F2F2;
@@ -1127,6 +1127,9 @@ body {
     border-radius: 4px;
 
     font-family: "PT Sans";
+    font-weight: 700;
+
+    padding-left: 19px;
 }
 
 .date-input:hover {
@@ -1273,11 +1276,15 @@ body {
     top: 10%;
 }
 
-.info-kids:hover::after {
+.info-kids-span {
+    display: none;
+}
+
+.info-kids:hover + .info-kids-span {
+    display: block;
     position: absolute;
     right: 110px;
     top: 330px;
-    content: "Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.";
     width: 256px;
     height: 143px;
     background: #333333;
@@ -1299,4 +1306,8 @@ body {
     width: 19px;
     height: 9px;
     background-image: url(../images/corner.svg);
+} */
+
+/* .modal-container {
+    display: none;
 } */

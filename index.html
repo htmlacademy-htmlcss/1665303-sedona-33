@@ -196,11 +196,11 @@
 
           <form class="searching-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="arriving-date" for="arriving-date">Дата заезда:</label>
-            <input class="date-input" type="date" id="arriving-date">
+            <input class="date-input" type="text" id="arriving-date" value="27 апреля 2020">
             <p class="error-date-text">Мы не можем отправить вас в прошлое.</p>
 
             <label class="departure-date" for="departure-date">Дата выезда:</label>
-            <input class="date-input" type="date" id="departure-date">
+            <input class="date-input" type="text" id="departure-date" value="1 сентября 2021">
             <p class="info-text">На эти даты есть свободные номера. Пока есть.</p>
 
             <div class="number-of-people">
@@ -212,7 +212,15 @@
             </div>  
 
             <label class="kids" for="kids">Дети:</label>
-            <span class="info-kids">i</span>
+           
+            <div>
+              <span class="info-kids">i
+                <span class="info-kids-span">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+            </div>
+              
+           
+            
             <div class="number-button number-button-kids">
               <button class="number-of-kids-button kids-minus"></button>
               <input class="input-number-of-adults" type="text" id="kids">
