@@ -91,6 +91,10 @@ body {
 
 }
 
+.navigation-user-item {
+    padding-right: 0;
+} 
+
 .search-icon {
     text-decoration: none;
     color: #000000;
@@ -104,12 +108,14 @@ body {
 .want-button {
     margin-left: 20px;
     text-decoration: none;
+    text-transform: uppercase;
     color: #ffffff;
     background-color: #756257;
-    padding: 5px 30px;
+    padding: 5px 35px;
     border-radius: 4px;
-    width: 160px;
-    height: 37px;
+    
+    font-size: 16px;
+    /* line-height: 50px; */
 }
 
 .page-container {
@@ -316,10 +322,14 @@ body {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 120px;
     align-items: center;
 }
+
+.footer-social {
+    padding-left: 30px;
+} 
 
 .footer-social-list {
     display: flex;
@@ -333,7 +343,11 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+    /* padding-right: 60px; */
+}
 
+.htmlacademy-link {
+    padding-right: 70px;
 }
 
 .phone {
@@ -1062,6 +1076,8 @@ body {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-left: 20px;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .email-to-subscribe:hover {
