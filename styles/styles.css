@@ -108,6 +108,8 @@ body {
     background-color: #756257;
     padding: 9px 15px;
     border-radius: 4px;
+    width: 160px;
+    height: 37px;
 }
 
 .page-container {
@@ -130,6 +132,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 485px;
+    margin-top: 3px;
 }
 
 .reasons-motto {
@@ -161,6 +164,8 @@ body {
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 98px;
+    margin: 0;
 }
 
 .info-title {
@@ -177,6 +182,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 29px;
 }
 
 .reasons-description {
@@ -184,6 +190,8 @@ body {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    width: 220px;
+    margin: 30px auto 0 auto;
 }
 
 .info-description {
@@ -698,17 +706,6 @@ body {
 
 .third, .fourth, .fifth {
     height: 384px;
-}
-
-.reasons-title {
-    padding-top: 98px;
-}
-
-
-
-.reasons-description {
-    width: 220px;
-    margin: 0 auto;
 }
 
 .wider {
@@ -1308,6 +1305,6 @@ body {
     background-image: url(../images/corner.svg);
 } 
 
-/* .modal-container {
+.modal-container {
     display: none;
-} */
+}
