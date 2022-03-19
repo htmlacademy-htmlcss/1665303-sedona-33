@@ -1280,7 +1280,7 @@ body {
     display: none;
 }
 
-.info-kids:hover + .info-kids-span {
+.info-kids:hover .info-kids-span {
     display: block;
     position: absolute;
     right: 110px;
@@ -1298,7 +1298,7 @@ body {
     line-height: 20px;
 }
 
-/* .info-kids:hover::after {
+ .info-kids:hover::after {
     position: absolute;
     content: "";
     top: 325px;
@@ -1306,7 +1306,7 @@ body {
     width: 19px;
     height: 9px;
     background-image: url(../images/corner.svg);
-} */
+} 
 
 /* .modal-container {
     display: none;
