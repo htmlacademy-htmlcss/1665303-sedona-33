@@ -61,7 +61,7 @@
         <ul class="reasons-list grid">
           <li class="reasons-items first grid">
             <div class="first-item">
-            <h3 class="reasons-title">Настоящий городок</h3>
+            <h3 class="reasons-title">Настоящий <br> городок</h3>
             <p class="reasons-number">— №1 —</p>
             <p class="reasons-description">Седона — не аттракцион для туристов, там течёт 
               своя жизнь</p>    
@@ -93,27 +93,27 @@
           <li class="reasons-items second grid">
             <img class="reasons-img-second" src="images/photo-2.jpg" height="384" width="800" alt="Мост Дьявола в Седоне">
             <div class="second-item">
-            <h3 class="reasons-title">Там есть
+            <h3 class="reasons-title">Там есть <br>
               мост дьявола</h3>
             <p class="reasons-number">— №2 —</p>
             <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </div>  
           </li>
           <li class="reasons-items third">
-            <h3 class="reasons-title">Небольшая
+            <h3 class="reasons-title">Небольшая <br>
               площадь</h3>
             <p class="reasons-number">— №3 —</p>
             <p class="reasons-description wider">Все достопримечательности 
               находятся очень близко</p>
           </li>
           <li class="reasons-items fourth">
-            <h3 class="reasons-title">Красивая
+            <h3 class="reasons-title">Красивая <br>
               дорога</h3>
             <p class="reasons-number">— №4 —</p>
             <p class="reasons-description wider">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="reasons-items fifth">
-            <h3 class="reasons-title">Мало
+            <h3 class="reasons-title">Мало <br>
               туристов</h3>
             <p class="reasons-number">— №5 —</p>
             <p class="reasons-description wider">Большинство едет в Гранд Каньон и толпится там</p>
@@ -123,18 +123,18 @@
       <section class="hotel-search">
         <h2 class="hotel-search-title">Заинтересовались?</h2>
         <p class="hotel-search-description">
-          Укажите предполагаемые даты поездки,
+          Укажите предполагаемые даты поездки, <br>
 и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
         <button class="button search-button" href="catalog.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>       
       <section class="subscription">
         <h2 class="subscription-title">Подпишитесь на рассылку</h2>
-        <p class="subscription-description">Только полезная информация и никакого спама,
+        <p class="subscription-description">Только полезная информация и никакого спама, <br>
           честное бойскаутское!</p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="visuaaly-hidden" for="email-to-subscribe">Email</label>
-          <input type="text" id="email-to-subscribe" name="email-address" placeholder="Ваш e-mail">
+          <label class="visually-hidden" for="email-to-subscribe">Email</label>
+          <input class="email-to-subscribe" type="text" id="email-to-subscribe" name="email-address" placeholder="Ваш e-mail">
           <button class="button subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
         </form>  
       </section> 
@@ -182,5 +182,55 @@
       </section>
     </footer>
 
+    <div class="modal-container">
+      <div class="modal">
+        
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+          <span class="close-button-span"></span>
+        </button>
+
+        <section class="modal-content">
+          
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+
+          <form class="searching-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="arriving-date" for="arriving-date">Дата заезда:</label>
+            <input class="date-input" type="text" id="arriving-date" value="27 апреля 2020">
+            <p class="error-date-text">Мы не можем отправить вас в прошлое.</p>
+
+            <label class="departure-date" for="departure-date">Дата выезда:</label>
+            <input class="date-input" type="text" id="departure-date" value="1 сентября 2021">
+            <p class="info-text">На эти даты есть свободные номера. Пока есть.</p>
+
+            <div class="number-of-people">
+              <label class="adults" for="adults">Взрослые:</label>
+            <div class="number-button number-button-adults">
+              <button class="number-of-adults-button adults-minus"></button>
+              <input class="input-number-of-adults" type="text" id="adults">
+              <button class="number-of-adults-button adults-plus"></button>
+            </div>  
+
+            <label class="kids" for="kids">Дети:</label>
+        
+              <span class="info-kids">i
+                <span class="info-kids-span">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+                     
+                       
+            <div class="number-button number-button-kids">
+              <button class="number-of-kids-button kids-minus"></button>
+              <input class="input-number-of-adults" type="text" id="kids">
+              <button class="number-of-kids-button kids-plus"></button>
+            </div>
+            </div>
+            
+            
+
+            <button class="modal-search-button">Найти</button> 
+          </form>
+        </section>
+      </div>
+    </div>  
   </body>
 </html>
