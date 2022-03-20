@@ -50,12 +50,16 @@ body {
     
 }
 
+/* .container {
+    background-color: #ffffff;
+} */
+
 .page-header {
     /* margin-bottom: -15px; */
     z-index: 10;
     width: 1200px;
     margin: 0 auto -10px auto;
-    background-color: #ffffff;
+    
 }
 
 
@@ -147,7 +151,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 485px;
-    margin-top: 3px;
+    margin-top: 8px;
 }
 
 .reasons-motto {
