@@ -50,16 +50,17 @@ body {
     
 }
 
-/* .container {
+.container {
     background-color: #ffffff;
-} */
+    width: 1200px;
+    margin: 0 auto;
+} 
 
 .page-header {
-    /* margin-bottom: -15px; */
     z-index: 10;
     width: 1200px;
     margin: 0 auto -10px auto;
-    
+    position: relative;
 }
 
 
@@ -123,7 +124,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #756257;
-    padding: 5px 35px;
+    padding: 8px 35px;
     border-radius: 4px;
     
     font-size: 16px;
@@ -382,6 +383,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 408px;
+    margin-top: 3px;
 }
 
 .inner-header-title {
@@ -405,6 +407,7 @@ body {
     display: flex;
     position: relative;
     padding-left: 71px;
+    margin: 0;
 
 }
 
@@ -452,6 +455,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 70px;
+    margin-right: 50px;
 }
 
 .apply-button {
@@ -965,7 +970,7 @@ body {
     height: 4px;
     width: 287px;
     margin-bottom: 16px;
-    margin-top: 16px;
+    margin-top: 28px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 2px;
 }
@@ -1006,10 +1011,13 @@ body {
     height: 48px;
     padding-left: 20px;
     color: #ffffff;
+    font-size: 18px;
 }
 
 .range {
     position: relative;
+    margin-top: 40px;
+    margin-right: 40px;
 }
 
 .range-wrapper-inputs {
@@ -1032,12 +1040,14 @@ body {
 
 .catalog-filter-group {
     border: none;
+    margin-top: 40px;
 }
 
 .control {
     position:relative;
     display: block;
     padding-left: 36px;
+    margin-top: 14px;
 }
 
 .control-mark {
@@ -1336,6 +1346,14 @@ body {
     height: 9px;
     background-image: url(../images/corner.svg);
 } 
+
+.appartaments-group {
+    margin-right: 100px;
+}
+
+.infrastructure-group {
+    margin-left: 40px;
+}
 
 .modal-container {
     display: none;
