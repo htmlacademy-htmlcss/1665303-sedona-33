@@ -342,6 +342,16 @@ body {
     background-color: #ffffff;
 }
 
+.page-footer-catalog {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
 .footer-social {
     padding-left: 30px;
 } 
@@ -621,7 +631,7 @@ body {
 .pagination {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin-top: 15px;
 }
 
 .pagination-item {
@@ -682,7 +692,8 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-    margin: 73px;
+    margin-top: 55px;
+    margin-bottom: 40px;
 }
 
 .subscription-inner-description {
@@ -696,6 +707,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .subscribe-button {
@@ -942,13 +954,21 @@ body {
 }
 
 .divider {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    
     width: 1055px;
 
     border: none;
     height: 1px;
     background: #E6E6E6;
+}
+
+.divider-top {
+    
+    margin-bottom: 30px;
+}
+
+.divider-bottom {
+    margin-top: 30px;
 }
 
 .pagination-container {
