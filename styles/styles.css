@@ -556,7 +556,7 @@ body {
 .hotel-type, .hotel-price {
     font-weight: normal;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 15px;
     color: #333333;
 }
 
@@ -566,7 +566,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 10px 0;
     background: #756257;
     color: #ffffff;
     width: 133px;
@@ -602,13 +602,20 @@ body {
 .hotel-rating {
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 37px;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 0px;
     background: #F2F2F2;
     color: #333333;
     border-radius: 4px;
+    width: 160px;
+    height: 37px;
+}
+
+.stars {
+    height: 17px;
+    padding-top: 25px;
 }
 
 .more-button {
@@ -632,6 +639,7 @@ body {
     display: flex;
     list-style-type: none;
     margin-top: 15px;
+    padding: 0;
 }
 
 .pagination-item {
