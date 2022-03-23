@@ -1202,6 +1202,11 @@ body {
     font-weight: 700;
 
     padding-left: 19px;
+
+    background-image: url(../images/date.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+   
 }
 
 .date-input:hover {
@@ -1209,7 +1214,7 @@ body {
 }
 
 .date-input:focus, .date-input:active {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     background-color: #E6E6E6;
 }
 
@@ -1239,7 +1244,18 @@ body {
     height: 48px;
     border: none;
     background-color: #F2F2F2;
+    font-weight: 700;
+    text-align: center;
     
+}
+
+.input-number-of-adults:hover, .input-number-of-kids:hover {
+    background-color: #E6E6E6;    
+}
+
+.input-number-of-adults:focus, .input-number-of-adults:active, .input-number-of-kids:focus, .input-number-of-kids:active {
+   
+    background-color: #E6E6E6;
 }
 
 .number-of-adults-button, .number-of-kids-button {
