@@ -683,6 +683,7 @@ body {
     line-height: 23px;
     color: #333333;
     margin-left: 250px;
+    /* padding-right: 5px; */
 }
 
 .hotels-on-page {
@@ -1045,8 +1046,10 @@ body {
     width: 95px;
     height: 48px;
     padding-left: 20px;
+    
     color: #ffffff;
     font-size: 18px;
+
 }
 
 .range {
@@ -1096,6 +1099,15 @@ body {
     border-radius: 4px;
 }
 
+.control-mark:hover {
+    background-color: #E6E6E6;
+}
+
+.control-mark:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #E6E6E6;
+}
+
 .control-mark-round {
     position: absolute;
     top: 2px;
@@ -1105,6 +1117,15 @@ body {
     border-radius: 50%;
     border: 2px solid #ffffff;
     background: #ffffff;
+}
+
+.control-mark-round:hover {
+    background-color: #E6E6E6;
+}
+
+.control-mark-round:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #E6E6E6;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
