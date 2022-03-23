@@ -525,7 +525,7 @@ body {
 
 .hotel-card-item {
     width: 340px;
-    height: 438px;
+    height: 425px;
     padding-top: 24px;
     
 }
@@ -644,7 +644,7 @@ body {
 
 .pagination-item {
     width: 55px;
-    margin: 0 8px;
+    margin: 0 4px;
 
 }
 
@@ -680,6 +680,11 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #333333;
+    margin-left: 250px;
+}
+
+.hotels-on-page {
+    margin-right: 80px;
 }
 
 .hotels-on-page-option {
@@ -971,7 +976,7 @@ body {
 }
 
 .divider-top {
-    
+    margin-top: 25px;
     margin-bottom: 30px;
 }
 
@@ -1383,6 +1388,6 @@ body {
     margin-left: 40px;
 }
 
-.modal-container {
+/* .modal-container {
     display: none;
-}
+} */
