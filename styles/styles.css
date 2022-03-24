@@ -116,6 +116,7 @@ body {
 .like-icon {
     text-decoration: none;
     color: #000000;
+    position: relative;
 }
 
 .want-button {
@@ -844,15 +845,19 @@ body {
     fill-opacity: 30%;
 }
 
-.like-svg::after {
+.like-icon::after {
     display: inline-block;
     position: absolute;
     content: "12";
+    top: -10px;
+    left: 10px;
     width: 20px;
     height: 20px;
     background-color: #7DB54F;
     color: #ffffff;
     border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
 }
 
 /* .number-of-likes {
