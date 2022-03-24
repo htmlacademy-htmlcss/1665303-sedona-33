@@ -50,12 +50,17 @@ body {
     
 }
 
+.container {
+    background-color: #ffffff;
+    width: 1200px;
+    margin: 0 auto;
+} 
+
 .page-header {
-    /* margin-bottom: -15px; */
     z-index: 10;
     width: 1200px;
     margin: 0 auto -10px auto;
-    background-color: #ffffff;
+    position: relative;
 }
 
 
@@ -111,6 +116,7 @@ body {
 .like-icon {
     text-decoration: none;
     color: #000000;
+    position: relative;
 }
 
 .want-button {
@@ -119,7 +125,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #756257;
-    padding: 5px 35px;
+    padding: 8px 35px;
     border-radius: 4px;
     
     font-size: 16px;
@@ -147,7 +153,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 485px;
-    margin-top: 3px;
+    margin-top: 8px;
 }
 
 .reasons-motto {
@@ -219,7 +225,7 @@ body {
 .first-item, .second {
     background: #83B3D3;
     color: #ffffff;
-    height: 384px;
+    min-height: 384px;
 }
 
 .place-to-live, .souvenirs, .third, .fifth {
@@ -232,7 +238,7 @@ body {
 }
 
 .place-to-live, .souvenirs, .food {
-    height: 384px;
+    min-height: 384px;
 
 }
 
@@ -337,6 +343,16 @@ body {
     background-color: #ffffff;
 }
 
+.page-footer-catalog {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
 .footer-social {
     padding-left: 30px;
 } 
@@ -378,6 +394,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 408px;
+    margin-top: 3px;
 }
 
 .inner-header-title {
@@ -401,6 +418,7 @@ body {
     display: flex;
     position: relative;
     padding-left: 71px;
+    margin: 0;
 
 }
 
@@ -448,6 +466,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 70px;
+    margin-right: 50px;
 }
 
 .apply-button {
@@ -506,7 +526,7 @@ body {
 
 .hotel-card-item {
     width: 340px;
-    height: 438px;
+    height: 425px;
     padding-top: 24px;
     
 }
@@ -537,7 +557,7 @@ body {
 .hotel-type, .hotel-price {
     font-weight: normal;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 15px;
     color: #333333;
 }
 
@@ -547,7 +567,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 10px 0;
     background: #756257;
     color: #ffffff;
     width: 133px;
@@ -583,13 +603,20 @@ body {
 .hotel-rating {
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 37px;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 0px;
     background: #F2F2F2;
     color: #333333;
     border-radius: 4px;
+    width: 160px;
+    height: 37px;
+}
+
+.stars {
+    height: 17px;
+    padding-top: 25px;
 }
 
 .more-button {
@@ -606,18 +633,21 @@ body {
     color: #ffffff;
     padding: 17px ;
     width: 620px;
+    border-radius: 4px;
 
 }
 
 .pagination {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin-top: 15px;
+    padding: 0;
 }
 
 .pagination-item {
     width: 55px;
-    margin: 0 8px;
+    margin: 0 4px;
+    
 
 }
 
@@ -631,7 +661,7 @@ body {
     line-height: 55px;
     background: #83B3D3;
     color: #ffffff;
-
+    border-radius: 4px;
 
 }
 
@@ -653,6 +683,12 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #333333;
+    margin-left: 250px;
+    /* padding-right: 5px; */
+}
+
+.hotels-on-page {
+    margin-right: 80px;
 }
 
 .hotels-on-page-option {
@@ -673,7 +709,8 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-    margin: 73px;
+    margin-top: 55px;
+    margin-bottom: 40px;
 }
 
 .subscription-inner-description {
@@ -687,6 +724,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .subscribe-button {
@@ -731,7 +769,7 @@ body {
 }
 
 .third, .fourth, .fifth {
-    height: 384px;
+    min-height: 384px;
 }
 
 .wider {
@@ -793,14 +831,42 @@ body {
     fill-opacity: 30%;
 }
 
-.like-svg:hover {
+.like-svg {
+    margin-top: 24px;
+    position: relative;
+}
+
+.like-fill-svg:hover {
     fill: #756257;
 }
 
-.like-svg:active {
+.like-fill-svg:active {
     fill: #756257;
     fill-opacity: 30%;
 }
+
+.like-icon::after {
+    display: inline-block;
+    position: absolute;
+    content: "12";
+    top: -10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #7DB54F;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* .number-of-likes {
+    width: 20px;
+    height: 20px;
+    background-color: #7DB54F;
+    color: #ffffff;
+    border-radius: 50%;
+} */
 
 
 .want-button:hover {
@@ -933,13 +999,21 @@ body {
 }
 
 .divider {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    
     width: 1055px;
 
     border: none;
     height: 1px;
     background: #E6E6E6;
+}
+
+.divider-top {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.divider-bottom {
+    margin-top: 30px;
 }
 
 .pagination-container {
@@ -961,7 +1035,7 @@ body {
     height: 4px;
     width: 287px;
     margin-bottom: 16px;
-    margin-top: 16px;
+    margin-top: 28px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 2px;
 }
@@ -998,14 +1072,19 @@ body {
 .range-input {
     background-color: transparent;
     border: none;
-    width: 95px;
+    width: 85px;
     height: 48px;
     padding-left: 20px;
+    
     color: #ffffff;
+    font-size: 18px;
+
 }
 
 .range {
     position: relative;
+    margin-top: 40px;
+    margin-right: 40px;
 }
 
 .range-wrapper-inputs {
@@ -1028,12 +1107,14 @@ body {
 
 .catalog-filter-group {
     border: none;
+    margin-top: 40px;
 }
 
 .control {
     position:relative;
     display: block;
     padding-left: 36px;
+    margin-top: 14px;
 }
 
 .control-mark {
@@ -1047,6 +1128,15 @@ body {
     border-radius: 4px;
 }
 
+.control-mark:hover {
+    background-color: #E6E6E6;
+}
+
+.control-mark:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #E6E6E6;
+}
+
 .control-mark-round {
     position: absolute;
     top: 2px;
@@ -1056,6 +1146,15 @@ body {
     border-radius: 50%;
     border: 2px solid #ffffff;
     background: #ffffff;
+}
+
+.control-mark-round:hover {
+    background-color: #E6E6E6;
+}
+
+.control-mark-round:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #E6E6E6;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
@@ -1155,6 +1254,11 @@ body {
     font-weight: 700;
 
     padding-left: 19px;
+
+    background-image: url(../images/date.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+   
 }
 
 .date-input:hover {
@@ -1162,7 +1266,7 @@ body {
 }
 
 .date-input:focus, .date-input:active {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     background-color: #E6E6E6;
 }
 
@@ -1192,7 +1296,18 @@ body {
     height: 48px;
     border: none;
     background-color: #F2F2F2;
+    font-weight: 700;
+    text-align: center;
     
+}
+
+.input-number-of-adults:hover, .input-number-of-kids:hover {
+    background-color: #E6E6E6;    
+}
+
+.input-number-of-adults:focus, .input-number-of-adults:active, .input-number-of-kids:focus, .input-number-of-kids:active {
+   
+    background-color: #E6E6E6;
 }
 
 .number-of-adults-button, .number-of-kids-button {
@@ -1332,6 +1447,14 @@ body {
     height: 9px;
     background-image: url(../images/corner.svg);
 } 
+
+.appartaments-group {
+    margin-right: 100px;
+}
+
+.infrastructure-group {
+    margin-left: 40px;
+}
 
 .modal-container {
     display: none;
