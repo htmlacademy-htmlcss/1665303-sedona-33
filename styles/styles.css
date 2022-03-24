@@ -224,7 +224,7 @@ body {
 .first-item, .second {
     background: #83B3D3;
     color: #ffffff;
-    height: 384px;
+    min-height: 384px;
 }
 
 .place-to-live, .souvenirs, .third, .fifth {
@@ -237,7 +237,7 @@ body {
 }
 
 .place-to-live, .souvenirs, .food {
-    height: 384px;
+    min-height: 384px;
 
 }
 
@@ -768,7 +768,7 @@ body {
 }
 
 .third, .fourth, .fifth {
-    height: 384px;
+    min-height: 384px;
 }
 
 .wider {
@@ -830,14 +830,38 @@ body {
     fill-opacity: 30%;
 }
 
-.like-svg:hover {
+.like-svg {
+    margin-top: 24px;
+    position: relative;
+}
+
+.like-fill-svg:hover {
     fill: #756257;
 }
 
-.like-svg:active {
+.like-fill-svg:active {
     fill: #756257;
     fill-opacity: 30%;
 }
+
+.like-svg::after {
+    display: inline-block;
+    position: absolute;
+    content: "12";
+    width: 20px;
+    height: 20px;
+    background-color: #7DB54F;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+/* .number-of-likes {
+    width: 20px;
+    height: 20px;
+    background-color: #7DB54F;
+    color: #ffffff;
+    border-radius: 50%;
+} */
 
 
 .want-button:hover {
@@ -1043,7 +1067,7 @@ body {
 .range-input {
     background-color: transparent;
     border: none;
-    width: 95px;
+    width: 85px;
     height: 48px;
     padding-left: 20px;
     
