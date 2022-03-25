@@ -239,8 +239,29 @@ body {
 }
 
 .place-to-live, .souvenirs, .food {
-    min-height: 384px;
+    min-height: 200px;
+}
 
+.place-to-live {
+    background-image: url(../images/house.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 90px;
+}
+
+.food {
+    background-image: url(../images/burger.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 90px;
+}
+
+.souvenirs {
+    background-image: url(../images/surprise.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 90px;
+}
+
+.info-item {
+    padding-top: 184px;
 }
 
 .fourth {
@@ -809,7 +830,7 @@ body {
 }
 
 .welcome::after {
-    background-image: url(../images/Vector.svg);
+    background-image: url(../images/vector.svg);
     position: absolute;
     content: " ";
     display: inline-block;
