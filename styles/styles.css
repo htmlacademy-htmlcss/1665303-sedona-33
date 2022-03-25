@@ -127,9 +127,10 @@ body {
     background-color: #756257;
     padding: 8px 35px;
     border-radius: 4px;
-    
+    font-family: "PT Sans", sans-serif;
     font-size: 16px;
-    /* line-height: 50px; */
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .page-container {
@@ -172,6 +173,8 @@ body {
     line-height: 36px;
     text-align: center;
     margin-bottom: 80px;
+    font-family: "PT Sans", sans-serif;
+    color: #333333;
 }
 
 .reasons-list {
@@ -220,6 +223,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    color: #333333;
 }
 
 .first-item, .second {
@@ -276,6 +280,7 @@ body {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
 
     display: block;
     margin: 0 auto;
@@ -283,7 +288,7 @@ body {
     margin-bottom: 93px;
 
     border-radius: 10px;
-    height: 60px;
+    min-height: 60px;
 }
 
 .subscription {
@@ -325,10 +330,11 @@ body {
     text-transform: uppercase;
     background: #83B3D3;
     color: #ffffff;
-    height: 62px;
+    min-height: 62px;
     width: 200px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    font-family: "PT Sans", sans-serif;
     
     
 }
@@ -393,7 +399,7 @@ body {
     background-image: url(../images/catalog-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    height: 408px;
+    min-height: 408px;
     margin-top: 3px;
 }
 
@@ -447,6 +453,7 @@ body {
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
+    margin-top: 0;
 }
 
 .catalog-filter-list {
@@ -481,6 +488,7 @@ body {
     background: #83B3D3;
     color:#ffffff;
     border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
 }
 
 .reset-button {
@@ -491,6 +499,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     background: transparent;
+    font-family: "PT Sans", sans-serif;
 }
 
 .found-hotels {
@@ -505,6 +514,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
+    font-family: "PT Sans", sans-serif;
 }
 
 .wrapper {
@@ -573,6 +583,7 @@ body {
     width: 133px;
     text-decoration: none;
     border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
 }
 
 .hotel-card-like-button {
@@ -586,6 +597,7 @@ body {
     color: #ffffff;
     width: 140px;
     border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
 }
 
 .hotel-card-like-button-liked {
@@ -684,7 +696,8 @@ body {
     line-height: 23px;
     color: #333333;
     margin-left: 250px;
-    /* padding-right: 5px; */
+    font-family: "PT Sans", sans-serif;
+    background: #ffffff;
 }
 
 .hotels-on-page {
@@ -762,7 +775,7 @@ body {
 .info-list {
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    height: 384px;
+    min-height: 384px;
     align-items: center;
     padding-left: 0;
     list-style-type: none;
@@ -987,6 +1000,7 @@ body {
     width: 287px;
     border: 2px solid #E6E6E6;
     border-radius: 4px;
+    background: #ffffff;
 }
 
 .hotel-card-image {
@@ -1233,7 +1247,7 @@ body {
 
 .modal-title {
     text-transform: uppercase;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -1250,9 +1264,8 @@ body {
     border: none;
     border-radius: 4px;
 
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-weight: 700;
-
     padding-left: 19px;
 
     background-image: url(../images/date.svg);
@@ -1360,13 +1373,14 @@ body {
     margin-top: 40px;
     border: none;
     border-radius: 10px;
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
     color: #ffffff;
     text-transform: uppercase;
+
 }
 
 .searching-form {
@@ -1382,11 +1396,13 @@ body {
     grid-column: 2 / -1;
     color: #FF5757;
     margin-top: 0;
+    font-size: 16px;
 }
 
 .info-text {
     grid-column: 2 / -1;
     margin-top: 0;
+    font-size: 16px;
 }
 
 .departure-date {
@@ -1431,7 +1447,7 @@ body {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 15px;
-    font-family: PT Sans;
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
