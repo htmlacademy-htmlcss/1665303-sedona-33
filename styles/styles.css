@@ -23,7 +23,7 @@
     border: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 html {
     height: 100%;
@@ -75,7 +75,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    /* width: 525px; */
     margin: 0;
     padding: 0;
     padding-left: 47px;
@@ -83,9 +82,9 @@ body {
 }
 
 .navigation-user {
-    /* max-width: 327px; */
     flex-grow: 0;
 }
+
 .navigation-link {
     text-decoration: none;
     color: #000000;
@@ -100,8 +99,6 @@ body {
 
     padding-top: 20px;
     padding-right: 34px;
-    /* padding-bottom: 10px; */
-
 }
 
 .navigation-user-item {
@@ -322,6 +319,7 @@ body {
     line-height: 26px;
     text-align: center;
 }
+
 .subscribe-button {
     font-weight: 700;
     font-size: 20px;
@@ -335,8 +333,6 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-family: "PT Sans", sans-serif;
-    
-    
 }
 
 .page-footer {
@@ -375,7 +371,6 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    /* padding-right: 60px; */
 }
 
 .htmlacademy-link {
@@ -659,8 +654,6 @@ body {
 .pagination-item {
     width: 55px;
     margin: 0 4px;
-    
-
 }
 
 .pagination-link {
@@ -674,7 +667,6 @@ body {
     background: #83B3D3;
     color: #ffffff;
     border-radius: 4px;
-
 }
 
 .pagination-current {
@@ -873,15 +865,6 @@ body {
     text-align: center;
 }
 
-/* .number-of-likes {
-    width: 20px;
-    height: 20px;
-    background-color: #7DB54F;
-    color: #ffffff;
-    border-radius: 50%;
-} */
-
-
 .want-button:hover {
     background-color: #615048;
 }
@@ -960,14 +943,6 @@ body {
 
 .current-page {
     border-bottom: 2px solid #756257;
-}
-
-/*.select-control{*/
-/*    margin: 50px;*/
-/*}*/
-
-.hotel-cards {
-
 }
 
 .catalog-sorting {
@@ -1290,7 +1265,6 @@ body {
 }
 
 .adults {
-    /* padding-right: 80px; */
     padding-top: 15px;
     font-weight: 700;
 }
@@ -1335,7 +1309,6 @@ body {
 
 .number-of-people {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .adults-minus, .kids-minus {
